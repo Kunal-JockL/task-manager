@@ -1,4 +1,6 @@
-export const TASKS = [
+import{Task} from './Task' //Even if the give wrong file name it works, ./task
+
+export const TASKS: Task[] = [
     {
       id: 1,
       text: 'Doctors Appointment',
